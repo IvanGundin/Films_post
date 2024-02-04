@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="./post.js"></script>
+    <title>JSON, Ajax</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Search:</h3>
+        <form>
+            <div class="form-content">
+                <div class="form-label">
+                    <label for="title">Title:</label>
+                    <label for="type">Type:</label>
+                </div>
+                <div class="form-input">
+                    <input type="text" name="title" id="title" required>
+                    <select name="type" id="type">
+                        <option value="movie">movie</option>
+                        <option value="series">series</option>
+                        <option value="episode">episode</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" id="getData">Search</button>
+        </form>
+        <br />
+        <div id="films">
+        </div>
+        <div class="pagination">
+            <div class="box">
+                <button type="button" class="prev">Prev</button>
+                <ul class="ul">
+                    <li><a href="#" class="page_number active_page">1</a></li>
+                </ul>
+                <button type="button" class="next">Next</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

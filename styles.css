@@ -1,0 +1,180 @@
+﻿body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 10px;
+  background-color: #fff2e9;
+}
+
+h3 {
+  text-align: center;
+}
+
+#getData {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+}
+
+form {
+  border: 2px solid rgb(169, 169, 169);
+  margin: 0 auto;
+  width: 350px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.form-content {
+  display: flex;
+  justify-content: center;
+}
+
+.form-label,
+.form-input {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.form-label {
+  margin-right: 66px;
+}
+
+#films {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: none;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  width: 250px;
+  margin-left: 15px;
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.cards-content {
+  width: 130px;
+}
+
+#getDataFilm {
+  width: 90px;
+}
+
+.cards-title {
+  font-weight: bold;
+}
+
+.cards-type {
+  font-style: italic;
+}
+
+.cards-year {
+  font-size: 18px;
+}
+
+.cards-img img {
+  width: 110px;
+}
+
+.pagination {
+  gap: 20px;
+}
+
+.card-img img {
+  width: 230px;
+}
+
+.name-details {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-content-details {
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 15px;
+  padding: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+.card-details {
+  display: flex;
+  gap: 40px;
+}
+
+.text-details {
+  font-weight: bold;
+}
+
+.box {
+  margin-top: 15px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0px 10px 30px -15px #000;
+  display: flex;
+  align-items: center;
+}
+
+.box ul {
+  display: flex;
+  margin: 0px 10px;
+}
+
+.box ul li {
+  list-style: none;
+  margin: 0px 5px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100px;
+  text-align: center;
+
+}
+
+.box ul li a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  border-radius: 100px;
+  transition: 0.2s;
+}
+
+.box ul li .active_page {
+  background-color: #a05acb;
+  color: #fff;
+}
+
+.box ul li:hover,
+.box button:hover {
+  background-color: #a05acb;
+  color: #fff;
+}
+
+
+.box button {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.box button a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  color: #000;
+  transition: 0.2s;
+}
